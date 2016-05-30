@@ -27,6 +27,11 @@ header img {
 	height:auto;
 	display:block;
 }
+
+.middle {
+	background-image: url("/common/images/yoga.jpg");
+}
+
 h1.headerNeg {
 	font-family: Oswald, sans-serif;
 	font-weight:700;
