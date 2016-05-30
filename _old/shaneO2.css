@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic);
+
+body{ 
+	padding:0;
+	margin:0;
+	padding-bottom:40px;
+	font-family:'Source Sans Pro', Arial, sans-serif;
+	background-image:url(/common/images/yoga-back.jpg);
+	background-attachment:fixed;
+	background-position:top center;
+	background-size:cover;
+	height:100%;
+	-webkit-perspective-origin: 50% 250px;
+    -moz-perspective-origin: 50% 250px;
+    -ms-perspective-origin: 50% 250px;
+    -o-perspective-origin: 50% 250px;
+    perspective-origin: 50% 250px;
+    -webkit-perspective: 1px;
+    -moz-perspective: 1px;
+    -ms-perspective: 1px;
+    -o-perspective: 1px;
+    perspective: 1px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d; 
+}
+#page {
+	background-color:#ffffff;
+}
+header {
+	width:100%;
+	text-align:center;
+	position:relative;
+	overflow:hidden;
+	height:519px;
+}
+#plax {
+	position:absolute;
+	width:100%;
+}
+#plax img {
+	margin: 0 auto;
+	width:auto;
+	max-width:100%;
+	height:auto;
+	display:block;
+  -webkit-transform: translateZ(-2px) scale(3);
+  -moz-transform: translateZ(-2px) scale(3);
+  -ms-transform: translateZ(-2px) scale(3);
+  -o-transform: translateZ(-2px) scale(3);
+  transform: translateZ(-2px) scale(3);
+}
+h1.headerNeg {
+	font-family: Oswald, sans-serif;
+	font-weight:700;
+	position:absolute;
+	bottom:-8px;
+	margin:0;
+	padding:0;
+	left:0;
+	text-shadow: 0 0 10px rgba(0,0,0,.5);
+	color:white;
+	text-transform: uppercase;
+	width:100%;
+	font-size: 92px;		
+	line-height: 92px;
+	max-width:100%;
+}
+#shirt {
+	float:right;
+}
+#attitude, #dayna, #bigShirt {
+	width:100%;
+	height:auto;
+}
+.container {
+	max-width:970px;
+}
+#quick {
+	text-align:center;
+}
+#quick a img {
+	border: #dddddf solid 0px;
+	-webkit-transition: border-width .3s; /* Safari */
+    transition: border-width .3s;
+}
+#quick a img:hover {
+	border-width: 4px;
+}
+#sharer{
+	text-align:left;
+}
+#bigShirtCont {
+	text-align:center;
+}
+.noTop {
+	margin-top:0;
+}
