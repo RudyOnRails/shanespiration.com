@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic);
+
+body { 
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.section-header {
+	font-size: 42px;
+	display: block;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.section-header-text {
+	display: block;
+	text-align: center;
+	margin: 12px 0 36px;
+}
+
+
+
+/**
+ * Header Styles...
+ */
+
+#header {
+    background:
+    	url("/common/images/shane-warrior.png") bottom left no-repeat,
+    	url("/common/images/half-dome.jpg") bottom center no-repeat;
+    background-size:
+    	325px,
+    	cover;
+    display: block;
+    min-height: 450px;
+}
+
+.shanespiration {
+    float: left;
+    background-image: url("/common/images/logo-white.png");
+    background-size: 225px 50px;
+    background-repeat: no-repeat;
+    padding-top: 12px;
+    padding-left: 225px;
+    margin-top: 24px;
+    height: 50px;
+    display: block;
+}
+
+.centeredInspire {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 300px;
+	padding: 10px;
+}
+
+.centeredInspire__quote {
+	color: #fff;
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 1em;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+
+
+/**
+ * Story Styles...
+ */
+
+#story {
+    background-color: #f4f7f8;
+}
+
+.avatar {
+    margin-bottom: 15px;
+}
+
+.avatar img {
+    border-radius: 999px;
+    width: 100px;
+}
+
+.story-text {
+	text-align: center;
+}
+
+.story-callout {
+	font-weight: 600;
+	text-align: center;
+	margin: 32px 0 48px;
+}
+
+
+
+/**
+ * Get Naked Styles...
+ */
+
+#get-naked {
+	height: 300px;
+	background: url("/common/images/get-naked-long.png") bottom center no-repeat;
+    background-size: cover;
+	background-color: black;
+}
+
+
+
+/**
+ * Help The Cause Styles...
+ */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CAD0D2;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 250px;
+    margin-bottom: 24px;
+}
+
+.card__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.card__descriptionIcon {
+    margin: 32px 0 24px;
+}
+
+.card__descriptionText {
+    color: #57727C;
+    font-size: 12px;
+    text-align: center;
+    max-width: calc(100% - 40px);
+    margin-bottom: 16px;
+}
+
+.card__link {
+    text-align: center;
+    color: #57727C;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-top: 1px solid #D7DBDD;
+    background-color: #EEF3F5;
+}
+
+
+
+/**
+ * Marathon Styles...
+ */
+
+#marathon {
+    background-color: #f5f5f5;
+}
+
+
+
+/**
+ * Behind the Attitude Styles...
+ */
+
+
+
+/**
+ * Social Media Styles...
+ */
+
+#social-media {
+    background-color: #f5f8fa;
+}
+
+
+
+/**
+ * Footer Styles...
+ */
+
+#footer {
+    padding: 20px 0;
+    background-color: #f5f5f5;
+}
+
+p.footer-text {
+    font-size: .9em;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+/**
+ * Small Screen Styles...
+ */
+
+@media (max-width: 991px)
+{
+    /**
+    * Header Styles...
+    */
+
+    .shanespiration {
+        float: none;
+        background-image: url("/common/images/logo-white.png");
+        background-repeat: no-repeat;
+        padding-top: 12px;
+        padding-left: 225px;
+        width: 225px;
+        margin: 24px auto 0;
+        height: 50px;
+        display: block;
+    }
+
+    .centeredInspire {
+		min-height: 1em;
+		padding: 10px;
+	}
+
+	.centeredInspire__quote {
+		font-size: 32px;
+	}
+}
