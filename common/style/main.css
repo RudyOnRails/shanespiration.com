@@ -114,10 +114,11 @@ body {
  */
 
 #get-naked {
-	height: 300px;
 	background: url("/common/images/get-naked-long.png") bottom center no-repeat;
   background-size: cover;
 	background-color: black;
+  height: 0px;
+  padding-bottom: 23.40%;
 }
 
 
@@ -242,4 +243,22 @@ p.footer-text {
 	.centered-inspire__quote {
 		font-size: 32px;
 	}
+}
+
+
+
+/**
+ * Extra-Small Screen Styles...
+ */
+@media (max-width: 767px)
+{
+  /**
+  * Get Naked Styles...
+  */
+
+  #get-naked {
+    background: url("/common/images/get-naked.png") bottom center no-repeat;
+    background-size: cover;
+    padding-bottom: 66.51%;
+  }
 }
